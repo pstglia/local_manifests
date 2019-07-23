@@ -6,7 +6,7 @@ compilar o Lineage 14.1 para o Galaxy Tab E 7.0 (SM-T113NU)
 
 EN: Compiled ROM
 PT_BR: ROM Compilada
-https://drive.google.com/file/d/1ypLyclAsUqRtGJPcduJp0Yucawa9-G3S/view
+https://drive.google.com/file/d/1xEq9lttRw752KqIwXnk5ccUFmLJe4BSJ/view
 
 TWRP (version 3.0.2, for/para T113NU)
 https://drive.google.com/file/d/1Hcc1T1-iUEo1ATpPf_Kcu3vXqGR3Boq_/view?usp=sharing
