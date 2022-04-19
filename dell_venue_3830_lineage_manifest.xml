@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<project name="pstglia/android_device_dell_P801_NoModem" path="device/dell/P801_NoModem" remote="github" revision="DELL_VENUE_LOS_14.1" />
+	<project name="pstglia/android_vendor_dell_P801_NoModem" path="vendor/dell/P801_NoModem" remote="github" revision="DELL_VENUE_LOS_14.1" />
+	<project name="pstglia/linux" path="kernel/dell/P801_NoModem" remote="github" revision="DELL_VENUE_LOS_14.1" />
+	<project name="pstglia/hardware-libaudio" path="hardware/libaudio" remote="github" revision="DELL_VENUE_LOS_14.1" />
+	<remove-project	name="LineageOS/android_external_boringssl" />
+	<project name="pstglia/android_external_boringssl" path="external/boringssl" remote="github" revision="DELL_VENUE_LOS_14.1" />
+</manifest>
