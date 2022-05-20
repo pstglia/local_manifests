@@ -6,4 +6,6 @@
 	<project name="pstglia/hardware-libaudio" path="hardware/libaudio" remote="github" revision="DELL_VENUE_LOS_14.1" />
 	<remove-project	name="LineageOS/android_external_boringssl" />
 	<project name="pstglia/android_external_boringssl" path="external/boringssl" remote="github" revision="DELL_VENUE_LOS_14.1" />
+	<remove-project	name="LineageOS/android_external_tinyalsa" />
+	<project name="pstglia/android_external_tinyalsa" path="external/tinyalsa" remote="github" revision="DELL_VENUE_LOS_14.1" />
 </manifest>
