@@ -11,5 +11,5 @@
 	<remove-project	name="LineageOS/android_system_core" />
 	<project name="pstglia/system-core" path="system/core" remote="github" revision="DELL_VENUE_LOS_14.1" />
 	<remove-project	name="platform/external/apache-html" />
-	<project name="pstglia/apache-http" path="external/apache-http" remote="github" revision="DELL_VENUE_LOS_14.1" />
+	<project name="pstglia/android_external_apache-http" path="external/apache-http" remote="github" revision="DELL_VENUE_LOS_14.1" />
 </manifest>
