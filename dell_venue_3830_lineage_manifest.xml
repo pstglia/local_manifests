@@ -13,4 +13,6 @@
 	<remove-project	name="platform/external/apache-http" />
 	<project name="pstglia/android_external_apache-http" path="external/apache-http" remote="github" revision="DELL_VENUE_LOS_14.1" />
 	<project name="pstglia/i686-linux-android-4.7" path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" remote="github" revision="DELL_VENUE_LOS_14.1" />
+	<remove-project	name="LineageOS/android_external_icu" />
+	<project name="pstglia/android_external_icu" path="external/icu" remote="github" revision="DELL_VENUE_LOS_14.1" />
 </manifest>
