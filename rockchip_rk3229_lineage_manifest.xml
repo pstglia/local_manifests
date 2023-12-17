@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<project name="pstglia/android_device_rockchip_rk30board" path="device/rockchip/rk30board" remote="github" revision="RK3229_LOS7.1" />
-	<project name="pstglia/rk3229_kernel" path="kernel/rockchip/rk30board" remote="github" revision="RK3229_LOS7.1" />
+	<project name="pstglia/rk3229_kernel" path="kernel/rockchip/rk30board" remote="github" revision="RK3229_LOS7.1_COMPILE_ONLY" />
 	<project name="pstglia/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" remote="github" revision="master" />
 	<project name="pstglia/rkbin" path="rkbin" remote="github" revision="RK3229_LOS7.1" />
 	<project name="pstglia/u-boot" path="u-boot" remote="github" revision="RK3229_LOS7.1" />
