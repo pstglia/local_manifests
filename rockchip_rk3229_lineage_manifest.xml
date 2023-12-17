@@ -7,5 +7,5 @@
 	<project name="pstglia/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" remote="github" revision="master" />
 	<project name="pstglia/rkbin" path="rkbin" remote="github" revision="RK3229_LOS7.1" />
 	<project name="pstglia/u-boot" path="u-boot" remote="github" revision="RK3229_LOS7.1" />
-	<project name="pstglia/RKTools" path="RKTools" remote="github" revision="rk3328-box-7.1" />
+	<project name="pstglia/RKTools" path="RKTools" remote="github" revision="RK3229_LOS7.1" />
 </manifest>
