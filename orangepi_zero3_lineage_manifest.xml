@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="LineageOS/android_vendor_qcom_opensource_audio"/>
+  <remove-project name="LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal"/>
+  <remove-project name="LineageOS/android_vendor_qcom_opensource_bluetooth-commonsys-intf"/>
+  <remove-project name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf"/>
+  <remove-project name="LineageOS/android_vendor_qcom_opensource_bluetooth_ext"/>
+  <remove-project name="LineageOS/android_vendor_qcom_opensource_display-commonsys"/>
+  <remove-project name="LineageOS/android_vendor_qcom_opensource_packages_apps_Bluetooth"/>
+  <remove-project name="LineageOS/android_vendor_qcom_opensource_system_bt"/>
+  <remove-project name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw"/>
+  <remove-project name="LineageOS/android_vendor_qcom_opensource_display"/>
+  <remove-project name="LineageOS/android_vendor_qcom_opensource_fm-commonsys"/>
+  <remove-project name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr"/>
+  <remove-project name="LineageOS/android_vendor_qcom_opensource_dataservices"/>
+  <remove-project name="LineageOS/android_vendor_qcom_opensource_interfaces"/>
+  <remove-project name="LineageOS/android_vendor_qcom_opensource_libfmjni"/>
+  <remove-project name="LineageOS/android_vendor_qcom_opensource_power"/>
+  <remove-project name="LineageOS/android_vendor_qcom_opensource_thermal-engine"/>
+  <remove-project name="LineageOS/android_vendor_qcom_opensource_usb"/>
+  <remove-project name="LineageOS/android_vendor_qcom_opensource_vibrator"/>
+  <remove-project name="LineageOS/android_vendor_qcom_opensource_wfd-commonsys"/>
+
+  <project name="pstglia/android_device_orangepi_apollo" path="device/orangepi/apollo" remote="github" revision="ORANGEPI_ZERO3_LOS_19.1" />
+  <project name="pstglia/android_hardware_aw" path="hardware/aw" remote="github" revision="ORANGEPI_ZERO3_LOS_19.1" />
+
+</manifest>
