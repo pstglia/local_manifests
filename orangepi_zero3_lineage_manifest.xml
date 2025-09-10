@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <!-- removing unwanted... -->
   <remove-project name="LineageOS/android_vendor_qcom_opensource_audio"/>
   <remove-project name="LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal"/>
   <remove-project name="LineageOS/android_vendor_qcom_opensource_bluetooth-commonsys-intf"/>
@@ -21,8 +22,57 @@
   <remove-project name="LineageOS/android_vendor_qcom_opensource_vibrator"/>
   <remove-project name="LineageOS/android_vendor_qcom_opensource_wfd-commonsys"/>
 
+  <remove-project name="LineageOS/android_hardware_qcom_bootctrl" />
+  <remove-project name="LineageOS/android_hardware_qcom_bt" />
+  <remove-project name="LineageOS/android_hardware_qcom-caf_common" />
+  <remove-project name="LineageOS/android_hardware_qcom_thermal" />
+  <remove-project name="LineageOS/android_hardware_qcom_vr" />
+
+  <remove-project name="LineageOS/android_hardware_qcom_audio" />
+  <remove-project name="platform/hardware/qcom/bootctrl" />
+  <remove-project name="platform/hardware/qcom/bt" />
+  <remove-project name="LineageOS/android_hardware_qcom_camera" />
+  <remove-project name="LineageOS/android_hardware_qcom_data_ipacfg-mgr" />
+  <remove-project name="LineageOS/android_hardware_qcom_display" />
+  <remove-project name="LineageOS/android_hardware_qcom_gps" />
+  <remove-project name="platform/hardware/qcom/keymaster" />
+  <remove-project name="LineageOS/android_hardware_qcom_media" />
+  <remove-project name="platform/hardware/qcom/sdm845/bt" />
+  <remove-project name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" />
+  <remove-project name="LineageOS/android_hardware_qcom_sdm845_display" />
+  <remove-project name="platform/hardware/qcom/sdm845/gps" />
+  <remove-project name="LineageOS/android_hardware_qcom_sdm845_media" />
+  <remove-project name="platform/hardware/qcom/sdm845/thermal" />
+  <remove-project name="platform/hardware/qcom/sdm845/vr" />
+  <remove-project name="platform/hardware/qcom/sm7150/gps" />
+  <remove-project name="LineageOS/android_hardware_qcom_sm7250_display" />
+  <remove-project name="platform/hardware/qcom/sm7250/gps" />
+  <remove-project name="LineageOS/android_hardware_qcom_sm7250_media" />
+  <remove-project name="LineageOS/android_hardware_qcom_sm8150_data_ipacfg-mgr" />
+  <remove-project name="LineageOS/android_hardware_qcom_sm8150_display" />
+  <remove-project name="platform/hardware/qcom/sm8150/gps" />
+  <remove-project name="LineageOS/android_hardware_qcom_sm8150_media" />
+  <remove-project name="platform/hardware/qcom/sm8150/thermal" />
+  <remove-project name="platform/hardware/qcom/sm8150/vr" />
+  <remove-project name="platform/hardware/qcom/sm8150p/gps" />
+  <remove-project name="LineageOS/android_hardware_qcom_wlan" />
+
+  <remove-project name="LineageOS/android_vendor_nxp_interfaces_opensource_nfc" />
+  <remove-project name="LineageOS/android_vendor_nxp_nfc" />
+  <remove-project name="LineageOS/android_vendor_nxp_opensource_external_libnfc-nci" />
+  <remove-project name="LineageOS/android_vendor_nxp_opensource_frameworks" />
+  <remove-project name="LineageOS/android_vendor_nxp_opensource_halimpl" />
+  <remove-project name="LineageOS/android_vendor_nxp_opensource_hidlimpl" />
+  <remove-project name="LineageOS/android_vendor_nxp_opensource_packages_apps_Nfc" />
+  <remove-project name="LineageOS/android_vendor_nxp_secure_element" />
+  <remove-project name="LineageOS/android_vendor_nxp_secure_element_extns" />
+
+  <remove-project name="LineageOS/android_hardware_lineage_interfaces" />
+
+  <!-- Including needed -->
   <project name="pstglia/android_device_orangepi_apollo" path="device/orangepi/apollo" remote="github" revision="ORANGEPI_ZERO3_LOS_19.1" />
   <project name="pstglia/android_hardware_aw" path="hardware/aw" remote="github" revision="ORANGEPI_ZERO3_LOS_19.1" />
   <project name="pstglia/android_vendor_aw" path="vendor/aw" remote="github" revision="ORANGEPI_ZERO3_LOS_19.1" />
+  <project name="pstglia/android_hardware_lineage_interfaces" path="hardware/lineage/interfaces" remote="github" revision="ORANGEPI_ZERO3_LOS_19.1" />
 
 </manifest>
