@@ -77,5 +77,6 @@
   <project name="pstglia/android_vendor_aw" path="vendor/aw" remote="github" revision="ORANGEPI_ZERO3_LOS_19.1" />
   <project name="pstglia/android_hardware_lineage_interfaces" path="hardware/lineage/interfaces" remote="github" revision="ORANGEPI_ZERO3_LOS_19.1" />
   <project name="pstglia/android_frameworks_av" path="frameworks/av" remote="github" revision="ORANGEPI_ZERO3_LOS_19.1" />
+  <project name="pstglia/kernel_orangepi_apollo" path="kernel/orangepi/apollo" remote="github" revision="ORANGEPI_ZERO3_LOS_19.1" />
 
 </manifest>
