@@ -79,5 +79,6 @@
   <project name="pstglia/android_frameworks_av" path="frameworks/av" remote="github" revision="ORANGEPI_ZERO3_LOS_19.1" />
   <project name="pstglia/kernel_orangepi_apollo" path="kernel/orangepi/apollo" remote="github" revision="ORANGEPI_ZERO3_LOS_19.1" />
   <project name="pstglia/android_longan" path="longan" remote="github" revision="ORANGEPI_ZERO3_LOS_19.1" />
+  <project name="pstglia/android_vendor_security" path="vendor/secutity" remote="github" revision="ORANGEPI_ZERO3_LOS_19.1" />
 
 </manifest>
