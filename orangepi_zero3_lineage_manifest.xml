@@ -88,7 +88,7 @@
   <project name="pstglia/android_vendor_security" path="vendor/security" remote="github" revision="ORANGEPI_ZERO3_LOS_19.1" />
   <project name="pstglia/android_system_media" path="system/media" remote="github" revision="ORANGEPI_ZERO3_LOS_19.1" />
   <project name="pstglia/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="ORANGEPI_ZERO3_LOS_19.1" />
-  <project name="pstglia/hardware_libhardware" path="hardware/sprd" remote="github" revision="ORANGEPI_ZERO3_LOS_19.1" />
+  <project name="pstglia/hardware_sprd" path="hardware/sprd" remote="github" revision="ORANGEPI_ZERO3_LOS_19.1" />
   <project name="pstglia/android_system_core" path="system/core" remote="github" revision="ORANGEPI_ZERO3_LOS_19.1" />
 
 </manifest>
