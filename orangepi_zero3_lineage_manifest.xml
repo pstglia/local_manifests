@@ -74,6 +74,7 @@
   <remove-project name="LineageOS/android_system_media" />
   <remove-project name="LineageOS/android_hardware_libhardware" />
   <remove-project name="LineageOS/android_system_core" />
+  <remove-project name="LineageOS/android_frameworks_opt_net_wifi" />
 
   <!-- Including needed -->
   <project name="pstglia/android_device_orangepi_apollo" path="device/orangepi/apollo" remote="github" revision="ORANGEPI_ZERO3_LOS_19.1" />
@@ -90,5 +91,6 @@
   <project name="pstglia/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="ORANGEPI_ZERO3_LOS_19.1" />
   <project name="pstglia/hardware_sprd" path="hardware/sprd" remote="github" revision="ORANGEPI_ZERO3_LOS_19.1" />
   <project name="pstglia/android_system_core" path="system/core" remote="github" revision="ORANGEPI_ZERO3_LOS_19.1" />
+  <project name="pstglia/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="github" revision="ORANGEPI_ZERO3_LOS_19.1" />
 
 </manifest>
