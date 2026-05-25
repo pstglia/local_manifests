@@ -1,0 +1,79 @@
+1) Prepare build environment and configure repo for lineageos 19.1
+
+2) copy the manifest file on this repository to local_manifests
+
+3) After repo sync:
+
+3.1) Go to "prebuilts/clang/host/linux-x86/clang-r416183b1/bin" (clang version used may change) and
+     create a symlinkld pointing to lld
+
+     ln -s lld ld
+
+3.2) On "longan" folder, replace stub "build/toolchain/gcc-linaro-5.3.1-2016.05-x86_64_aarch64-linux-gnu.tar.xz"
+     by the actual version. You may get it from orangepi zero 3 android sources (https://drive.google.com/drive/folders/1acn4Oosu1s-39hCK3uRiqj9gG0Jw-tGZ)
+     or maybe from here (https://github.com/YuzukiHD/sunxi-bsp-toolchains/releases)
+
+4) Build longan (kernel, u-boot and others):
+
+4.1)  enter longan directory and run "./build.sh config". select:
+
+  0. android
+  0. h618
+  2. p2
+  0. default
+  0. linux-5.4
+  1. arm64
+
+  It will create and file named ".buildconfig" and start a process named "buildserver" (2 pids)
+
+4.2) Run "./build.sh" to build kernel and U-boot
+
+5) Build Lineage
+
+5.1) Add some cache to speed up build  (ccache required)
+
+export USE_CCACHE=1
+export CCACHE_EXEC=/usr/bin/ccache
+ccache -M 70G
+
+5.2) on lineage root folder run these commands:
+
+source build/envsetup.sh
+lunch lineage_apollo-userdebug
+
+5.3) Start LineageOS build
+
+brunch lineage_apollo-userdebug
+
+5.4) After building is completed, replace kernel img by longan kernel:
+
+cd $OUT/obj/KERNEL_OBJ/arch/arm64/boot/
+cp  ${android_top_path}/longan/out/h618/p2/android/bImage ./Image
+
+5.5) Remove root and recovery dirs and repeat brunch:
+
+cd $OUT
+rm -rf root recovery
+croot
+brunch lineage_apollo-userdebug
+
+5.6) After rebuilding, create superimage
+cd ${android_top_path}
+mka superimage
+
+6) execute "pack" command in order to create PhoenixCard image
+
+cd ${android_top_path}
+pack
+
+Note: buildserver must be up. If you are not on the same session where longan "build.sh config" was executed, you may
+start it manually:
+
+cd YOUR_LINEAGEOS_REPO/longan
+
+tools/build/buildserver --path YOUR_LINEAGEOS_REPO/longan &
+
+7) Burn using PhoenixCard 4.2.8 (download from http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/service-and-support/Orange-Pi-Zero-3.html)
+
+
+
