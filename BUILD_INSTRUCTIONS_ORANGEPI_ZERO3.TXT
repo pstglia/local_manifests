@@ -58,6 +58,8 @@ croot
 brunch lineage_apollo-userdebug
 
 5.6) After rebuilding, create superimage
+cd $OUT
+rm -rf root
 cd ${android_top_path}
 mka superimage
 
