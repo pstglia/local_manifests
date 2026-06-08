@@ -74,7 +74,7 @@
   <remove-project name="LineageOS/android_system_media" />
   <remove-project name="LineageOS/android_hardware_libhardware" />
   <remove-project name="LineageOS/android_system_core" />
-  <remove-project name="LineageOS/android_frameworks_opt_net_wifi" />
+  <remove-project name="platform/frameworks/opt/net/wifi" />
   <remove-project name="LineageOS/android_system_vold" />
   <remove-project name="LineageOS/android_lineage-sdk" />
 
