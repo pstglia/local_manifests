@@ -13,6 +13,16 @@
      by the actual version. You may get it from orangepi zero 3 android sources (https://drive.google.com/drive/folders/1acn4Oosu1s-39hCK3uRiqj9gG0Jw-tGZ)
      or maybe from here (https://github.com/YuzukiHD/sunxi-bsp-toolchains/releases)
 
+3.3) On "longan" folder, replace stub "brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi.tar.xz"
+     by the actual version. You may get it from orangepi zero 3 android sources (https://drive.google.com/drive/folders/1acn4Oosu1s-39hCK3uRiqj9gG0Jw-tGZ)
+
+3.4) On "longan" folder, replace stub "brandy/brandy-2.0/tools/toolchain/riscv64-linux-x86_64-20200528.tar.xz"
+     by the actual version. You may get it from orangepi zero 3 android sources (https://drive.google.com/drive/folders/1acn4Oosu1s-39hCK3uRiqj9gG0Jw-tGZ)
+
+3.5) Ensure you have "depmod" installed and it's directory on PATH variable (/usr/sbin is the most common location)
+
+     export PATH="$HOME/bin:$PATH:/usr/sbin"
+
 4) Build longan (kernel, u-boot and others):
 
 4.1)  enter longan directory and run "./build.sh config". select:
