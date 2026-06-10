@@ -78,6 +78,8 @@
   <remove-project name="LineageOS/android_system_vold" />
   <remove-project name="LineageOS/android_lineage-sdk" />
 
+  <remove-project name="LineageOS/android_packages_services_Mms" />
+
   <!-- Including needed -->
   <project name="pstglia/android_device_orangepi_apollo" path="device/orangepi/apollo" remote="github" revision="ORANGEPI_ZERO3_LOS_19.1" />
   <project name="pstglia/android_device_orangepi_common" path="device/orangepi/common" remote="github" revision="ORANGEPI_ZERO3_LOS_19.1" />
