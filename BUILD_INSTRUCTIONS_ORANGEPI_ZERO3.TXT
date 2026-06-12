@@ -1,6 +1,17 @@
-1) Prepare build environment and configure repo for lineageos 19.1
+1) Prepare build environment (check https://wiki.lineageos.org/devices/beyond1lte/build/ as reference and configure repo for lineageos 19.1. 
 
-2) copy the manifest file on this repository to local_manifests
+repo init -u https://github.com/LineageOS/android.git -b lineage-19.1 --git-lfs --no-clone-bundle
+
+repo sync
+
+NOTE: Do not forget git-lfs (prebuilt packages like chromium are just references)
+
+2) copy the manifest file (orangepi_zero3_lineage_manifest.xml) on this repository to local_manifests
+
+cd .repo
+mkdir local_manifests
+cd local_manifests
+wget https://raw.githubusercontent.com/pstglia/local_manifests/refs/heads/ORANGEPI_ZERO3_LOS_19.1/orangepi_zero3_lineage_manifest.xml
 
 3) After repo sync:
 
